@@ -46,11 +46,11 @@ export default function App() {
 
     console.log("selectedDate",selectedDate)
 
-    // database().ref("Tasks").push({
-    //   value,
-    //   date:date?date:"",
-    //   today
-    // })
+    database().ref("Tasks").push({
+      value,
+      date:date?date:"",
+      today
+    })
 
   };
 
